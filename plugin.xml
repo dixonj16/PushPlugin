@@ -18,6 +18,10 @@
 	<engines>
 		<engine name="cordova" version=">=3.0.0" />
 	</engines>	
+
+	<js-module src="www/PushNotification.js" name="PushNotification">
+		<clobbers target="plugins.pushNotification" />
+	</js-module>
 	
 	<!-- android -->
 	<platform name="android">
